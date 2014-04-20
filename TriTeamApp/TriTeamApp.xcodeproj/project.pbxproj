@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDC6C2A219043FA60068D3FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6C2A119043FA60068D3FC /* Foundation.framework */; };
+		CDC6C2A419043FA60068D3FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6C2A319043FA60068D3FC /* CoreGraphics.framework */; };
+		CDC6C2A619043FA60068D3FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6C2A519043FA60068D3FC /* UIKit.framework */; };
+		CDC6C2AC19043FA60068D3FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC6C2AA19043FA60068D3FC /* InfoPlist.strings */; };
+		CDC6C2AE19043FA60068D3FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C2AD19043FA60068D3FC /* main.m */; };
+		CDC6C2B219043FA60068D3FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C2B119043FA60068D3FC /* AppDelegate.m */; };
+		CDC6C2B519043FA60068D3FC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC6C2B319043FA60068D3FC /* Main_iPhone.storyboard */; };
+		CDC6C2B819043FA60068D3FC /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC6C2B619043FA60068D3FC /* Main_iPad.storyboard */; };
+		CDC6C2BB19043FA60068D3FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C2BA19043FA60068D3FC /* ViewController.m */; };
+		CDC6C2BD19043FA60068D3FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC6C2BC19043FA60068D3FC /* Images.xcassets */; };
+		CDC6C2C419043FA60068D3FC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6C2C319043FA60068D3FC /* XCTest.framework */; };
+		CDC6C2C519043FA60068D3FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6C2A119043FA60068D3FC /* Foundation.framework */; };
+		CDC6C2C619043FA60068D3FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC6C2A519043FA60068D3FC /* UIKit.framework */; };
+		CDC6C2CE19043FA60068D3FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CDC6C2CC19043FA60068D3FC /* InfoPlist.strings */; };
+		CDC6C2D019043FA60068D3FC /* TriTeamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC6C2CF19043FA60068D3FC /* TriTeamAppTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC6C2C719043FA60068D3FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC6C29619043FA60068D3FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC6C29D19043FA60068D3FC;
+			remoteInfo = TriTeamApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDC6C29E19043FA60068D3FC /* TriTeamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriTeamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC6C2A119043FA60068D3FC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDC6C2A319043FA60068D3FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CDC6C2A519043FA60068D3FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CDC6C2A919043FA60068D3FC /* TriTeamApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriTeamApp-Info.plist"; sourceTree = "<group>"; };
+		CDC6C2AB19043FA60068D3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC6C2AD19043FA60068D3FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC6C2AF19043FA60068D3FC /* TriTeamApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TriTeamApp-Prefix.pch"; sourceTree = "<group>"; };
+		CDC6C2B019043FA60068D3FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDC6C2B119043FA60068D3FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDC6C2B419043FA60068D3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		CDC6C2B719043FA60068D3FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		CDC6C2B919043FA60068D3FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDC6C2BA19043FA60068D3FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDC6C2BC19043FA60068D3FC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDC6C2C219043FA60068D3FC /* TriTeamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriTeamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC6C2C319043FA60068D3FC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CDC6C2CB19043FA60068D3FC /* TriTeamAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TriTeamAppTests-Info.plist"; sourceTree = "<group>"; };
+		CDC6C2CD19043FA60068D3FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CDC6C2CF19043FA60068D3FC /* TriTeamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriTeamAppTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC6C29B19043FA60068D3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC6C2A419043FA60068D3FC /* CoreGraphics.framework in Frameworks */,
+				CDC6C2A619043FA60068D3FC /* UIKit.framework in Frameworks */,
+				CDC6C2A219043FA60068D3FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC6C2BF19043FA60068D3FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC6C2C419043FA60068D3FC /* XCTest.framework in Frameworks */,
+				CDC6C2C619043FA60068D3FC /* UIKit.framework in Frameworks */,
+				CDC6C2C519043FA60068D3FC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDC6C29519043FA60068D3FC = {
+			isa = PBXGroup;
+			children = (
+				CDC6C2A719043FA60068D3FC /* TriTeamApp */,
+				CDC6C2C919043FA60068D3FC /* TriTeamAppTests */,
+				CDC6C2A019043FA60068D3FC /* Frameworks */,
+				CDC6C29F19043FA60068D3FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC6C29F19043FA60068D3FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6C29E19043FA60068D3FC /* TriTeamApp.app */,
+				CDC6C2C219043FA60068D3FC /* TriTeamAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC6C2A019043FA60068D3FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6C2A119043FA60068D3FC /* Foundation.framework */,
+				CDC6C2A319043FA60068D3FC /* CoreGraphics.framework */,
+				CDC6C2A519043FA60068D3FC /* UIKit.framework */,
+				CDC6C2C319043FA60068D3FC /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC6C2A719043FA60068D3FC /* TriTeamApp */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6C2B019043FA60068D3FC /* AppDelegate.h */,
+				CDC6C2B119043FA60068D3FC /* AppDelegate.m */,
+				CDC6C2B319043FA60068D3FC /* Main_iPhone.storyboard */,
+				CDC6C2B619043FA60068D3FC /* Main_iPad.storyboard */,
+				CDC6C2B919043FA60068D3FC /* ViewController.h */,
+				CDC6C2BA19043FA60068D3FC /* ViewController.m */,
+				CDC6C2BC19043FA60068D3FC /* Images.xcassets */,
+				CDC6C2A819043FA60068D3FC /* Supporting Files */,
+			);
+			path = TriTeamApp;
+			sourceTree = "<group>";
+		};
+		CDC6C2A819043FA60068D3FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6C2A919043FA60068D3FC /* TriTeamApp-Info.plist */,
+				CDC6C2AA19043FA60068D3FC /* InfoPlist.strings */,
+				CDC6C2AD19043FA60068D3FC /* main.m */,
+				CDC6C2AF19043FA60068D3FC /* TriTeamApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC6C2C919043FA60068D3FC /* TriTeamAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6C2CF19043FA60068D3FC /* TriTeamAppTests.m */,
+				CDC6C2CA19043FA60068D3FC /* Supporting Files */,
+			);
+			path = TriTeamAppTests;
+			sourceTree = "<group>";
+		};
+		CDC6C2CA19043FA60068D3FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC6C2CB19043FA60068D3FC /* TriTeamAppTests-Info.plist */,
+				CDC6C2CC19043FA60068D3FC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC6C29D19043FA60068D3FC /* TriTeamApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC6C2D319043FA60068D3FC /* Build configuration list for PBXNativeTarget "TriTeamApp" */;
+			buildPhases = (
+				CDC6C29A19043FA60068D3FC /* Sources */,
+				CDC6C29B19043FA60068D3FC /* Frameworks */,
+				CDC6C29C19043FA60068D3FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TriTeamApp;
+			productName = TriTeamApp;
+			productReference = CDC6C29E19043FA60068D3FC /* TriTeamApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC6C2C119043FA60068D3FC /* TriTeamAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC6C2D619043FA60068D3FC /* Build configuration list for PBXNativeTarget "TriTeamAppTests" */;
+			buildPhases = (
+				CDC6C2BE19043FA60068D3FC /* Sources */,
+				CDC6C2BF19043FA60068D3FC /* Frameworks */,
+				CDC6C2C019043FA60068D3FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC6C2C819043FA60068D3FC /* PBXTargetDependency */,
+			);
+			name = TriTeamAppTests;
+			productName = TriTeamAppTests;
+			productReference = CDC6C2C219043FA60068D3FC /* TriTeamAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC6C29619043FA60068D3FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Paula Le";
+				TargetAttributes = {
+					CDC6C2C119043FA60068D3FC = {
+						TestTargetID = CDC6C29D19043FA60068D3FC;
+					};
+				};
+			};
+			buildConfigurationList = CDC6C29919043FA60068D3FC /* Build configuration list for PBXProject "TriTeamApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC6C29519043FA60068D3FC;
+			productRefGroup = CDC6C29F19043FA60068D3FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC6C29D19043FA60068D3FC /* TriTeamApp */,
+				CDC6C2C119043FA60068D3FC /* TriTeamAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC6C29C19043FA60068D3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC6C2B819043FA60068D3FC /* Main_iPad.storyboard in Resources */,
+				CDC6C2BD19043FA60068D3FC /* Images.xcassets in Resources */,
+				CDC6C2B519043FA60068D3FC /* Main_iPhone.storyboard in Resources */,
+				CDC6C2AC19043FA60068D3FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC6C2C019043FA60068D3FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC6C2CE19043FA60068D3FC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC6C29A19043FA60068D3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC6C2BB19043FA60068D3FC /* ViewController.m in Sources */,
+				CDC6C2B219043FA60068D3FC /* AppDelegate.m in Sources */,
+				CDC6C2AE19043FA60068D3FC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC6C2BE19043FA60068D3FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC6C2D019043FA60068D3FC /* TriTeamAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC6C2C819043FA60068D3FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC6C29D19043FA60068D3FC /* TriTeamApp */;
+			targetProxy = CDC6C2C719043FA60068D3FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC6C2AA19043FA60068D3FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC6C2AB19043FA60068D3FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CDC6C2B319043FA60068D3FC /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC6C2B419043FA60068D3FC /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC6C2B619043FA60068D3FC /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC6C2B719043FA60068D3FC /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC6C2CC19043FA60068D3FC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC6C2CD19043FA60068D3FC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC6C2D119043FA60068D3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDC6C2D219043FA60068D3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC6C2D419043FA60068D3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriTeamApp/TriTeamApp-Prefix.pch";
+				INFOPLIST_FILE = "TriTeamApp/TriTeamApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CDC6C2D519043FA60068D3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriTeamApp/TriTeamApp-Prefix.pch";
+				INFOPLIST_FILE = "TriTeamApp/TriTeamApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CDC6C2D719043FA60068D3FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TriTeamApp.app/TriTeamApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriTeamApp/TriTeamApp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TriTeamAppTests/TriTeamAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CDC6C2D819043FA60068D3FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TriTeamApp.app/TriTeamApp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TriTeamApp/TriTeamApp-Prefix.pch";
+				INFOPLIST_FILE = "TriTeamAppTests/TriTeamAppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC6C29919043FA60068D3FC /* Build configuration list for PBXProject "TriTeamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC6C2D119043FA60068D3FC /* Debug */,
+				CDC6C2D219043FA60068D3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC6C2D319043FA60068D3FC /* Build configuration list for PBXNativeTarget "TriTeamApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC6C2D419043FA60068D3FC /* Debug */,
+				CDC6C2D519043FA60068D3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CDC6C2D619043FA60068D3FC /* Build configuration list for PBXNativeTarget "TriTeamAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC6C2D719043FA60068D3FC /* Debug */,
+				CDC6C2D819043FA60068D3FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC6C29619043FA60068D3FC /* Project object */;
+}
